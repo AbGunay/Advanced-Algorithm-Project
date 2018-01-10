@@ -75,7 +75,7 @@ def score(motifs):
         s += hamming(max_motif, motif)
     return s
 
-dna = ["GGCGTTCAGGCA","AAGAATCAGTCA","CAAGGAGTTCGC","CACGTCAATCAC","CAATAATATTCG", "GGCGTTCAGGCA","AAGAATCAGTCA","CAAGGAGTTCGC","CACGTCAATCAC","CAATAATATTCG"]
+dna = ["GGCGTTCAGGCA","AAGAATCAGTCA","CAAGGAGTTCGC","CACGTCAATCAC","CAATAATATTCG"]
 
 start = time.time()
 motif_search = greedy_motif_search(dna,3)
